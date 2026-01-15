@@ -1,3 +1,10 @@
+== Version 2.8.1 (unreleased) ==
+
+Changes:
+
+* Relaxed Guava dependency version constraint to include major version 33.
+
+
 == Version 2.8.0 ==
 
 `webauthn-server-core`:
