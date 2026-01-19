@@ -58,7 +58,7 @@ Example:
 JRELEASER_MAVENCENTRAL_USERNAME=PYgw7b
 JRELEASER_MAVENCENTRAL_PASSWORD=QxExuJ0wwfBzbXVOsaSTUTBkXH8Fa2dFo
 JRELEASER_GPG_KEYNAME=2D6753CFF0B0FB32F9EEBA485B9688125FF0B636
-JRELEASER_MAVENCENTRAL_STAGE=UPLOAD
+JRELEASER_MAVENCENTRAL_STAGE=FULL
 JRELEASER_GITHUB_TOKEN=nope
 ```
 
@@ -69,3 +69,8 @@ Publishing a release
 ---
 
 See the [release checklist](./releasing.md).
+
+The first time you publish a release, request to have your PGP key added to the trusted keyring in the [`release-verify-signatures` workflow][workflow-release-src].
+
+
+[workflow-release-src]: https://github.com/Yubico/java-webauthn-server/blob/main/.github/workflows/release-verify-signatures.yml

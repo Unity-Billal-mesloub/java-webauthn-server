@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("constraintLibs") {
             library("cbor", "com.upokecenter:cbor:[4.5.1,5)")
-            library("guava", "com.google.guava:guava:[24.1.1,33)")
+            library("guava", "com.google.guava:guava:[24.1.1,34)")
             library("httpclient5", "org.apache.httpcomponents.client5", "httpclient5").version {
               strictly("[5.0.0,6)")
               reject("[5.4-alpha1,5.4.3)")
